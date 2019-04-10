@@ -1,2 +1,0 @@
-Deeplab dummy run complete. For now only jupyter notebook is available. I am working on the Medium post, so would post a clear .py file along with it.
-Deeplabv1 is just for learning purpose, how data should be loaded and how to create models, losses and as a general reference for pytorch.
