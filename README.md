@@ -2,7 +2,7 @@
 
 List of my jupyter notebooks. I use <a href='https://pytorch.org/' target='_blank'>PyTorch</a> + <a href='https://www.fast.ai/' target='_blank'>fastai</a> as my main deep learning libraries and the notebooks are build using these libraries.
 
-* **Multi Sample Dropout** is implemented and tested on CIFAR-100 for cyclic learning. My losses converge 4x faster when using num_samples=8. <a href='https://github.com/KushajveerSingh/Deep-Learning-Notebooks/tree/master/Multi%20Sample%20Dropout' target='_blank'>notebook</a>, <a href='https://arxiv.org/abs/1905.09788' target='_blank'>paper</a>
+* **Multi Sample Dropout** is implemented and tested on CIFAR-100 for cyclic learning. My losses converged 4x faster when using num_samples=8. <a href='https://github.com/KushajveerSingh/Deep-Learning-Notebooks/tree/master/Multi%20Sample%20Dropout' target='_blank'>notebook</a>, <a href='https://arxiv.org/abs/1905.09788' target='_blank'>paper</a>
 
 * Summarizing **Leslie N. Smith's research** in cyclic learning and hyper-parameter setting techniques. <a href='https://github.com/KushajveerSingh/Deep-Learning-Notebooks/tree/master/Leslie%20N.%20Smith%20paper%20notebooks%20(fastai)' target='_blank'>notebook</a>
 
