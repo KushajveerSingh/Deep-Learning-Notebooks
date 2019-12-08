@@ -1,0 +1,69 @@
+Keys for movements
+h - left movement
+j - to move one line down
+k - to move one line up
+l - right movement
+
+:q! -> to exit vim without savinf changes
+:wq -> to exit after saving file
+x -> to delete the character pointed by cursor
+
+i -> to get into insert mode from the character pointed by cursor
+a -> to get into insert mode from the next character pointed by cursor
+
+dw -> to delete from cursor till end of word
+d$ -> to delete from cursor till the end of lin
+dd -> to delete the complete line
+
+u -> to undo the last action
+U -> to undo all the changes in a line
+0 -> to move to the start of line
+
+You can use numbers in all the commands to repeat them that number of times
+
+ Ctrl-g -> to get current line number and file name
+G -> to move to bottom of file
+gg -> to move to start of file
+490G -> to move to line number 490
+
+/some_word -> to go to first some_word after the position of cursor
+n -> to move to next some_word
+N -> to search for the same_word in reverse direction i.e. drow_emos
+?some phrase -> to seach for some phrase
+Ctrl-o -> to go to the previous position of cursor
+Ctrl-I -> to move to the next postion of cursor
+
+% -> to go the matching position of a paranthesis
+:s/previous/next -> replaces the first occurence of previous with the next in a line
+:s/previous/next/g -> replaces all occurencs of previous with next word in a line
+:%s/old/new/g -> to change occurence of old with new in the whole file
+:%s/old/new/gc -> to find every occurence of old with new and get a prompt what to do
+:#,#s/old/new/g -> to replace with old with new in the range specified by #'s
+
+:!command -> to type a command as in a prompt and execute as a shell command
+
+:w FILENAME -> to save a file to this FILENAME
+:!rm FILENAME -> to remove the FILENAME
+v -> to highligh some part of the document and then press :
+v and then :w -> to save that part of the file
+:r FILENAME -> to retrieve the text of this FILENAME at the position of the cursor
+:r !ls -> to place the output of the commmand line in the vim file
+
+o -> to place a new line after cursor and enter INSERT mode
+O -> to place a new line before cursor and eneter INSERT mode
+e -> to move word wise in a line
+a -> to insert to the next position of cursor
+A -> to insert to the end of the line
+
+y -> to copy the highlighted text
+p -> to paste
+yw -> to directly copt the word on the cursor
+
+:set ic -> to ignore the case while searching
+:set hls is -> to set highlight search and auto increment search
+:set noic -> to diable ignore case while searching
+:set nohls -> to diable highlight text
+
+:help -> to get help
+Ctrl-W Ctrl-W -> to change vim windows
+:help any_commmand -> some commands are w, c_CTRL-D, insert-index, user-manualjjjjjjj
