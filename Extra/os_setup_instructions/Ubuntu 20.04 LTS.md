@@ -1,3 +1,10 @@
+# From Drive
+1. apsources-cleanup.pyz
+    - Place in home directory
+    - `chmod a+x aptsources-cleanup.pyz`
+    - `sudo ./aptsources-cleanup.pyz`
+2. Place `black.jpeg` in Documents
+
 1. Goto *Ubuntu Software* and remove unnecessary packages.
 2. Goto *Software & Updates* and do following changes
     - Ubuntu Software
