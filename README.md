@@ -1,3 +1,5 @@
+**Note**:- This repository has been moved to  [https://github.com/KushajveerSingh/deep_learning](https://github.com/KushajveerSingh/deep_learning).
+
 # Deep Learning Notebooks
 
 List of my jupyter notebooks. I use <a href='https://pytorch.org/' target='_blank'>PyTorch</a> + <a href='https://www.fast.ai/' target='_blank'>fastai</a> as my main deep learning libraries and the notebooks are build using these libraries.
